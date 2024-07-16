@@ -1,0 +1,55 @@
+/* Google Poppins Font added */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ########################Sheared Styles Starts Here##################################### */
+
+.display-flex {
+  display: flex;
+}
+
+.backdround {
+  max-width: 1440px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.theme-background-color {
+  background: rgb(224, 44, 109);
+}
+
+/* ########################Sheared Styles Ends Here##################################### */
+
+/* ########### Header Section Styles Start from Here ############################# */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-title {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.menu-items {
+  list-style: none;
+  padding: 20px 16px;
+  height: 36px;
+}
+
+.menu-items .menu-link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.menu-link; /* ########### Header Section Styles Ends Here ############################# */
