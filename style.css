@@ -98,6 +98,7 @@
   text-align: center;
   border: none;
   color: white;
+  margin-top: 1rem;
 }
 
 .banner-image {
@@ -111,14 +112,157 @@
   padding: 2rem 2rem 2rem 0.125rem;
 }
 
+/* ############ Icon box styles start from here ################# */
+.partner-icon-box {
+  max-width: 1110px;
+  max-height: 110px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: linear-gradient(
+    0deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.1) 50.378%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  margin: 70px auto;
+}
+
+/* ############ Icon box styles ends from here ################# */
+
+/* ######### Featured Products Style start from here ############ */
+.featured-product {
+  max-width: 1110px;
+  max-height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-products-content {
+  max-width: 610px;
+  min-height: 224px;
+}
+/* ########### Popular collection  styles start from here ############ */
+.product-items {
+  max-width: 1047px;
+  min-height: 1662px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: start;
+  margin-bottom: 100px;
+}
+.popular-collection-title {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 0px;
+}
+
+.popular-collection-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.popular-collection-box .popular-items .rating-box {
+  flex-direction: row;
+  justify-items: center;
+  gap: 5px;
+  margin-top: 8px;
+}
+.product-items .see-more-items {
+  color: rgba(224, 44, 109, 0.87);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  align-self: flex-end;
+  margin-top: 50px;
+}
+.popular-collection-box .popular-items .rating-box img {
+  width: 11.07px;
+  height: 10.32px;
+  left: 2.47px;
+  right: 2.47px;
+  top: 3.02px;
+  bottom: 2.66px;
+}
+.popular-items {
+  max-width: 329px;
+  height: 476px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 17px 16px 15px 14px;
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+.popular-items img {
+  width: 300px;
+  height: 256px;
+  margin-bottom: 1rem;
+}
+
+.popular-items .product-title {
+  color: rgb(24, 25, 31);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.popular-items .price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.product-items .product-descriptions {
+  color: rgb(120, 120, 133);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+  text-align: left;
+}
+
+/* ########### Popular collection  styles ends from here ############ */
+
+/* ######### Featured Products Style start from here ############ */
+
 /* ############# Responsive Media query styles start from Here ############### */
 @media screen and (max-width: 576px) {
+  /* Mobile menu bar not added yet */
   .banner-contents {
     order: 1;
   }
   .banner-box {
     flex-direction: column;
     padding: 20px;
+  }
+  .partner-icon-box {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 /* ############# Responsive Media query styles Endsfrom Here ############### */
